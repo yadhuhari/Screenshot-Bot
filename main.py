@@ -11,6 +11,10 @@ Bot = Client(
     bot_token=BOT_TOKEN
    )
 
+@Bot.on_message(filters.command("start"))
+async def start_cmd(client, message):
+    await message.reply_text("Hello Boss")
 
 
 print("Bot Started..!")
+Bot.run()
