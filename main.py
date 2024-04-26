@@ -22,7 +22,7 @@ Bot = Client(
 async def start_cmd(client, message):
     await message.reply_photo(
         photo=random.choice(PICS),
-        caption=f"""Hᴇʟʟᴏ {m.from_user.mention} 👋,
+        caption=f"""Hᴇʟʟᴏ {message.from_user.mention} 👋,
 
 I'ᴍ Sᴄʀᴇᴇɴsʜᴏᴛ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ. I ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ sᴄʀᴇᴇɴsʜᴏᴛs ʏᴏᴜʀ ᴠɪᴅᴇᴏ ғɪʟᴇs. Fᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʜᴇᴄᴋ ʜᴇʟᴘ
 
